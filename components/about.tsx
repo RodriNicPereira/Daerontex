@@ -16,9 +16,13 @@ export default function About() {
             Contamos con servicio de impresión, diseños, taller de corte y confección de conjuntos 100% personalizados.
             Trabajamos con todo tipo de telas, garantizando calidad y compromiso en cada prenda.
           </p>
-          <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-            Contactar Ahora
-          </Button>
+          {/* Button 3 */}
+        <div className="flex justify-center">
+          <a href="https://wa.me/5493516566666" className="text-base font-semibold rounded px-5 py-2.5 overflow-hidden group bg-[#1E4594] relative bg-gradient-to-r from-[#1E4594] to-cyan-600 text-white hover:ring-2 hover:ring-offset-2 hover:ring-[#1E4594] transition-all ease-out duration-300 ">
+            <span className="absolute right-0 w-14 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40"></span>
+            <span className="relative">Contactar Ahora</span>
+          </a>
+        </div>
         </div>
       </div>
     </section>

@@ -1,35 +1,36 @@
 import { Button } from "@/components/ui/button"
+const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_PRESUPUESTO;
 
 const designs = [
   {
     id: 1,
     title: "Equipo Deportivo",
-    image: "/nuestros diseños/5.png",
+    image: "/nuestros-disenos/5.png",
   },
   {
     id: 2,
     title: "Equipo Deportivo",
-    image: "/nuestros diseños/9.png",
+    image: "/nuestros-disenos/9.png",
   },
   {
     id: 3,
     title: "Equipo Deportivo",
-    image: "/nuestros diseños/6.png",
+    image: "/nuestros-disenos/6.png",
   },
   {
     id: 4,
     title: "Diseño Minimalista",
-    image: "/nuestros diseños/7.png",
+    image: "/nuestros-disenos/7.png",
   },
   {
     id: 5,
     title: "Estampado Vibrante",
-    image: "/nuestros diseños/10.png",
+    image: "/nuestros-disenos/10.png",
   },
   {
     id: 6,
     title: "Colección Premium",
-    image: "/nuestros diseños/12.png",
+    image: "/nuestros-disenos/12.png",
   },
 ]
 
@@ -68,9 +69,13 @@ export default function Gallery() {
               Solicita información sobre nuestros diseños y servicios. Estamos listos para hacer realidad tu proyecto.
             </p>
           </div>
-          <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 text-base font-semibold">
-            Pedir Información
-          </Button>
+          {/* Button 3 */}
+        <div className="flex justify-center">
+          <a href={whatsappNumber} className="text-base font-semibold rounded px-5 py-2.5 overflow-hidden group bg-[#1E4594] relative bg-gradient-to-r from-[#1E4594] to-cyan-600 text-white hover:ring-2 hover:ring-offset-2 hover:ring-[#1E4594] transition-all ease-out duration-300 ">
+            <span className="absolute right-0 w-14 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40"></span>
+            <span className="relative">Pedir Información</span>
+          </a>
+        </div>
         </div>
       </div>
     </section>

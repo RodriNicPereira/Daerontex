@@ -52,7 +52,7 @@ export default function Header() {
               
                             onClick={() => window.open(`${whatsapp}`)}
             >
-              Solicitar Presupuesto
+              Pedir Información
             </Button>
           
           </nav>

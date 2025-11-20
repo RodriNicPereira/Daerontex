@@ -13,7 +13,7 @@ const products = [
     title: "ESTAMPADOS PERSONALIZADOS",
     description:
       "Diseños únicos con técnicas de sublimación de última generación. Colores vibrantes que no se desvanecen.",
-    image: "/nuestros diseños/9.png",
+    image: "/nuestros-disenos/9.png",
   },
 ]
 
@@ -25,9 +25,7 @@ export default function ProductCarousel() {
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">{products[0].title}</h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">{products[0].description}</p>
-            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-              Conocer Más
-            </Button>
+            
           </div>
 
           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
@@ -51,9 +49,11 @@ export default function ProductCarousel() {
           <div className="order-1 md:order-2">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">{products[1].title}</h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">{products[1].description}</p>
-            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-              Conocer Más
-            </Button>
+            {/* Button 3 */}
+          <a href="#galeria" className="text-base font-semibold rounded px-5 py-2.5 overflow-hidden group bg-[#1E4594] relative bg-gradient-to-r from-[#1E4594] to-cyan-600 text-white hover:ring-2 hover:ring-offset-2 hover:ring-[#1E4594] transition-all ease-out duration-300 ">
+            <span className="absolute right-0 w-14 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40"></span>
+            <span className="relative">Conocer más</span>
+          </a>
           </div>
         </div>
       </div>
