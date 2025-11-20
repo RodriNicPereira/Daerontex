@@ -3,14 +3,14 @@ import { Button } from "@/components/ui/button"
 const products = [
   {
     id: 1,
-    title: "Remeras Deportivas",
+    title: "REMERAS DEPORTIVAS",
     description:
       "Telas de alta calidad con tecnología de secado rápido. Perfectas para entrenamientos intensos y competencias.",
     image: "/2.png",
   },
   {
     id: 2,
-    title: "Estampados Personalizados",
+    title: "ESTAMPADOS PERSONALIZADOS",
     description:
       "Diseños únicos con técnicas de sublimación de última generación. Colores vibrantes que no se desvanecen.",
     image: "/nuestros diseños/9.png",

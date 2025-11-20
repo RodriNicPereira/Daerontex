@@ -6,7 +6,7 @@ export default function About() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 tracking-tight">
-            Quiénes <span className="text-primary">Somos</span>
+            QUIÉNES <span className="text-primary">SOMOS</span>
           </h2>
           <p className="text-lg text-foreground leading-relaxed mb-6">
             Somos DAERONTEX, una fábrica de sublimación textil con más de 5 años en el rubro. Nos dedicamos a la

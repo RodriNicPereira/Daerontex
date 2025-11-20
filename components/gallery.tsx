@@ -38,7 +38,7 @@ export default function Gallery() {
     <section id="galeria" className="py-20 md:py-32">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center tracking-tight">
-          Nuestros <span className="text-primary">Diseños</span>
+          NUESTROS <span className="text-primary">DISEÑOS</span>
         </h2>
         <p className="text-center text-muted-foreground mb-16 text-lg">
           Explora algunos de nuestros trabajos recientes

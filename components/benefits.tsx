@@ -38,7 +38,7 @@ export default function Benefits() {
     <section className="py-20 pb-0 md:py-32 md:pt-50 md:pb-0 bg-card">
       <div className="container mx-auto px-4 ">
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-center mb-16">
-          Por Qué <span className="text-primary">Elegirnos</span>
+          POR QUÉ <span className="text-primary">ELEGIRNOS</span>
         </h2>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
