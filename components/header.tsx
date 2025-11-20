@@ -33,13 +33,13 @@ export default function Header() {
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#productos" className="text-white text-sm font-medium hover:text-white transition-colors">
+            <a href="#productos" className={`text-sm font-medium ${isScrolled ? "text-black" : "text-white"}`}>
               Productos
             </a>
-            <a href="#nosotros" className={`text-white text-sm font-medium hover:text-white transition-colors ${isScrolled ? "text-white" : "text-black"}`}>
+            <a href="#nosotros" className={`text-sm font-medium ${isScrolled ? "text-black" : "text-white"}`}>
               Nosotros
             </a>
-            <a href="#galeria" className={`text-white text-sm font-medium hover:text-white transition-colors ${isScrolled ? "text-white" : "text-black"}`}>
+            <a href="#galeria" className={`text-sm font-medium ${isScrolled ? "text-black" : "text-white"}`}>
               Galería
             </a>
             <Button
