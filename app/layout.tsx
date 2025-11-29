@@ -7,9 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'Daerontex',
+  description: 'Daerontex es una fábrica de sublimación textil con más de 5 años en el rubro. Nos dedicamos a la creación de indumentaria deportiva en una amplia variedad, con diseños exclusivos y mucho más.',
 }
 
 export default function RootLayout({
